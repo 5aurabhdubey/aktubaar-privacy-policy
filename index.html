@@ -3,147 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AktuBaar Privacy Policy</title>
+    <title>Privacy Policy - AktuBaar</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
+            color: #333;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
-            color: #333;
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #1a237e;
+        }
+        h2 {
+            font-size: 22px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #3f51b5;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #5e35b1;
+        }
+        p, ul, ol {
+            margin-bottom: 15px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
         }
         a {
-            color: #007bff;
+            color: #1976d2;
             text-decoration: none;
+            font-weight: 500;
         }
         a:hover {
             text-decoration: underline;
         }
-        p {
-            margin-bottom: 15px;
+        strong {
+            color: #333;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy for AktuBaar</h1>
-        <p><strong>Last Updated: March 17, 2025</strong></p>
+        <p><strong>Last Updated: April 09, 2025</strong></p>
 
-        <p>Welcome to <strong>AktuBaar</strong>, an educational app designed to help students access AKTU syllabus, question banks, and community features. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our app. Currently, AktuBaar does not display advertisements, but we may introduce them in the future using Google AdMob, which will involve additional data collection and third-party sharing managed through the User Messaging Platform (UMP) SDK. By using AktuBaar, you agree to the practices described in this policy.</p>
+        <p>Welcome to <strong>AktuBaar</strong>, an educational application designed to assist students with AKTU syllabus access, question banks, community features, and more. This Privacy Policy outlines how we collect, use, disclose, and protect your personal information when you use our app. AktuBaar now includes advertisements via Google AdMob, which involves additional data collection and sharing with third parties. This policy is managed in compliance with the User Messaging Platform (UMP) SDK for consent. By using AktuBaar, you agree to the terms described herein.</p>
 
         <h2>1. Information We Collect</h2>
-        <p>We collect the following types of information to provide and improve our services:</p>
+        <p>We collect the following types of information to provide and enhance our services:</p>
 
         <h3>a. Personal Information</h3>
         <ul>
-            <li><strong>Username and Email</strong>: When you first use the app, you may provide a username and email address. This information is stored locally on your device using <code>SharedPreferences</code> and is used to personalize your experience (e.g., displaying your username in the app and associating it with your community posts).</li>
-            <li><strong>Feedback and Issue Reports</strong>: If you submit feedback or report an issue through the app, we collect your username, email, and the content of your submission to address your concerns and improve the app.</li>
+            <li><strong>Username and Email</strong>: When you register or use the app, you may provide a username and email address. This data is stored locally on your device using <code>SharedPreferences</code> and is used to personalize your experience (e.g., displaying your username) and associate it with community posts or feedback.</li>
+            <li><strong>Feedback and Issue Reports</strong>: If you submit feedback or report issues via the app, we collect your username, email, and the content of your submission to address your concerns and improve the app.</li>
         </ul>
 
         <h3>b. User-Generated Content</h3>
         <ul>
-            <li><strong>Community Posts</strong>: If you post in the Community section, we collect your username, the content of your post, and a timestamp. This data is stored in Firebase Firestore to facilitate user interaction.</li>
+            <li><strong>Community Posts</strong>: When you post in the Community section, we collect your username, post content, and a timestamp. This data is stored in Firebase Firestore to enable user interaction.</li>
         </ul>
 
         <h3>c. Device and Usage Information</h3>
         <ul>
-            <li><strong>Firebase Data</strong>: We use Firebase (a Google service) for data storage and management. Firebase may automatically collect certain device information, such as device ID, app instance ID, and crash reports, to help us maintain and improve the app.</li>
-            <li><strong>External Links</strong>: The app provides access to external websites (e.g., <code>aktu.ac.in</code> for AKTU information and syllabus). We do not collect data from these interactions, but the websites you visit may have their own privacy policies.</li>
-            <li><strong>Advertising Data (Future)</strong>: We do not currently display ads. If we implement advertisements using Google AdMob in the future, third-party ad networks may collect device identifiers (e.g., Advertising ID), IP address, app usage data, and inferred interests for targeted advertising. This data collection will be managed through the User Messaging Platform (UMP) SDK, and you will be asked for consent before such data is collected or shared.</li>
+            <li><strong>Firebase Data</strong>: We use Firebase (a Google service) for data storage, crash reporting, and app management. Firebase may automatically collect device information, such as device ID, app instance ID, and crash logs, to ensure app stability and performance.</li>
+            <li><strong>External Links</strong>: The app links to external websites (e.g., <code>aktu.ac.in</code> for syllabus and results). We do not collect data from these interactions, but the linked sites may have their own privacy policies.</li>
+            <li><strong>Advertising Data</strong>: AktuBaar now uses Google AdMob for banner advertisements. AdMob and its partners may collect:
+                <ul>
+                    <li>Device identifiers (e.g., Advertising ID).</li>
+                    <li>IP address and approximate location (derived from IP).</li>
+                    <li>App usage data and inferred interests for ad personalization.</li>
+                </ul>
+                This data is collected with your consent via the User Messaging Platform (UMP) SDK and is used to deliver targeted ads. You can review Google’s AdMob policies at <a href="https://support.google.com/admob/answer/6128543" target="_blank">support.google.com/admob</a>.
+            </li>
         </ul>
 
         <h3>d. Non-Personal Information</h3>
-        <p>We do not currently collect usage analytics or non-personal data beyond what is necessary for app functionality. If we introduce analytics or ads, we will update this policy and notify users.</p>
+        <p>We may collect non-personal data (e.g., aggregated usage statistics) if analytics are enabled in the future. Any such collection will be disclosed in an updated policy.</p>
 
         <h2>2. How We Use Your Information</h2>
-        <p>We use the information we collect for the following purposes:</p>
+        <p>We use your information for the following purposes:</p>
         <ul>
-            <li><strong>Personalization</strong>: To display your username in the app and associate it with your community posts, feedback, and issue reports.</li>
-            <li><strong>App Functionality</strong>: To store and display user-generated content (e.g., community posts) and educational resources (e.g., syllabus notes, question banks) via Firebase.</li>
-            <li><strong>Improvement</strong>: To process feedback and issue reports to enhance the app’s functionality and user experience.</li>
-            <li><strong>Security and Maintenance</strong>: Firebase may use device information to provide crash reporting and ensure the app’s stability.</li>
-            <li><strong>Advertising (Future)</strong>: If we implement advertisements, we may use collected data to deliver personalized advertisements through Google AdMob, subject to your consent via the UMP SDK. This data will be used to improve ad targeting and performance.</li>
+            <li><strong>Personalization</strong>: To display your username and tailor your app experience.</li>
+            <li><strong>App Functionality</strong>: To store and display community posts and educational resources via Firebase.</li>
+            <li><strong>Improvement</strong>: To process feedback and issues to enhance the app.</li>
+            <li><strong>Security and Maintenance</strong>: Firebase uses device data for crash reporting and app stability.</li>
+            <li><strong>Advertising</strong>: To deliver personalized ads through Google AdMob, subject to your consent via the UMP SDK.</li>
         </ul>
 
         <h2>3. How We Store and Protect Your Information</h2>
         <h3>a. Storage</h3>
         <ul>
-            <li><strong>Local Storage</strong>: Your username, email, and dark mode preference are stored locally on your device using <code>SharedPreferences</code>.</li>
-            <li><strong>Cloud Storage</strong>: Community posts, feedback, issue reports, and educational resources are stored in Firebase Firestore and Firebase Realtime Database.</li>
-            <li><strong>Ad Data (Future)</strong>: If ads are implemented, advertising data may be stored by Google AdMob and its partners according to their privacy policies. This data will be managed through the UMP SDK and stored in compliance with applicable laws.</li>
+            <li><strong>Local Storage</strong>: Username, email, and preferences (e.g., dark mode) are stored on your device using <code>SharedPreferences</code>.</li>
+            <li><strong>Cloud Storage</strong>: Community posts, feedback, and educational resources are stored in Firebase Firestore and Realtime Database.</li>
+            <li><strong>Ad Data</strong>: Advertising data is managed by Google AdMob and its partners, stored according to their privacy policies, and governed by the UMP SDK.</li>
         </ul>
 
         <h3>b. Security</h3>
         <ul>
-            <li>We rely on Firebase’s security measures, including encryption in transit (using HTTPS) and at rest, to protect your data.</li>
-            <li>If ads are implemented, Google AdMob and the UMP SDK will use industry-standard security practices to protect advertising data.</li>
-            <li>We follow secure coding practices to minimize vulnerabilities in the app.</li>
-            <li>However, no method of transmission or storage is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.</li>
+            <li>Firebase provides encryption in transit (HTTPS) and at rest to protect your data.</li>
+            <li>Google AdMob uses industry-standard security for ad-related data.</li>
+            <li>We implement secure coding practices to minimize risks.</li>
+            <li>However, no data transmission or storage is entirely secure. We cannot guarantee absolute protection against unauthorized access or breaches.</li>
         </ul>
 
         <h2>4. Data Sharing and Third Parties</h2>
-        <p>We do not sell or share your personal information with third parties except as described below:</p>
+        <p>We do not sell your personal information but may share it with third parties as follows:</p>
         <ul>
-            <li><strong>Firebase (Google)</strong>: We use Firebase for data storage, crash reporting, and potentially analytics (if enabled in the future). Firebase may process your data according to Google’s Privacy Policy (available at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>).</li>
-            <li><strong>Google AdMob and UMP SDK (Future)</strong>: We do not currently display ads. If we implement advertisements, Google AdMob and its advertising partners may collect and process data (e.g., Advertising ID, IP address, app usage) for ad delivery and personalization. This will be managed through the User Messaging Platform (UMP) SDK, and you will be asked for consent. You can review Google’s Privacy Policy (<a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>) and AdMob’s Privacy Policy (<a href="https://support.google.com/admob/answer/6128543" target="_blank">support.google.com/admob</a>) for more details.</li>
-            <li><strong>External Websites</strong>: The app links to external websites (e.g., <code>aktu.ac.in</code>). These websites have their own privacy policies, and we are not responsible for their practices.</li>
-            <li><strong>Legal Requirements</strong>: We may disclose your information if required by law or to protect the rights, property, or safety of AktuBaar, its users, or the public.</li>
+            <li><strong>Firebase (Google)</strong>: Used for data storage and crash reporting. See Google’s Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</li>
+            <li><strong>Google AdMob</strong>: AdMob and its partners process advertising data for ad delivery. This is governed by the UMP SDK with your consent. Review AdMob’s Privacy Policy at <a href="https://support.google.com/admob/answer/6128543" target="_blank">support.google.com/admob</a>.</li>
+            <li><strong>External Websites</strong>: Links to sites like <code>aktu.ac.in</code> are not monitored by us. Their privacy practices apply.</li>
+            <li><strong>Legal Requirements</strong>: We may disclose data if required by law or to protect AktuBaar, its users, or the public.</li>
         </ul>
 
         <h2>5. Your Rights and Choices</h2>
         <h3>a. Access and Deletion</h3>
         <ul>
-            <li>You can access and update your username and email directly in the app via the Profile section.</li>
-            <li>To request access to or deletion of your data (e.g., community posts, feedback), please contact us at <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a>. We will respond to your request within 30 days, subject to verification of your identity.</li>
+            <li>Update your username and email in the app’s Profile section.</li>
+            <li>Request access to or deletion of your data (e.g., community posts) by contacting us at <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a>. We will respond within 30 days after verifying your identity.</li>
         </ul>
 
         <h3>b. Opt-Out and Consent</h3>
         <ul>
-            <li><strong>Current State</strong>: Since AktuBaar does not currently use ads or analytics, there are no opt-out options for such features.</li>
-            <li><strong>Future Ads</strong>: If we implement advertisements, we will request your consent through the UMP SDK before collecting advertising data. You will be able to:
+            <li><strong>Advertising</strong>: You can opt out of personalized ads by:
                 <ul>
-                    <li>Opt out of personalized ads by adjusting your device settings (e.g., disabling Personalized Ads in Google Settings).</li>
-                    <li>Revoke consent or adjust preferences via an in-app mechanism we will provide.</li>
-                    <li>Details will be updated in this policy when ads are introduced.</li>
+                    <li>Disabling Personalized Ads in your device settings (e.g., Google Settings > Ads).</li>
+                    <li>Revoking consent via the in-app UMP SDK prompt (when implemented).</li>
                 </ul>
             </li>
-            <li>You can stop using the app to cease data collection.</li>
+            <li>Stop using the app to cease data collection.</li>
         </ul>
 
         <h3>c. Children’s Privacy</h3>
-        <p>AktuBaar is not intended for children under the age of 13. We do notknowingly collect personal information from children under 13. If you believe we have collected such information, please contact us at <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a> to have it removed.</p>
+        <p>AktuBaar is not intended for children under 13. We do not knowingly collect data from children under 13. If you believe we have, contact us at <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a> to request removal.</p>
 
         <h2>6. Third-Party Links</h2>
-        <p>AktuBaar provides links to external websites, such as <code>aktu.ac.in</code>, for syllabus and informational purposes. These websites operate independently, and we are not responsible for their content or privacy practices. If ads are implemented, we will provide links to the privacy policies of Google AdMob and other ad partners.</p>
+        <p>The app links to external sites (e.g., <code>aktu.ac.in</code>) and may include ads via AdMob. We are not responsible for their privacy practices. Review their policies for details.</p>
 
         <h2>7. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements, especially if we introduce advertisements. The updated policy will be posted on this page with a revised “Last Updated” date. For significant changes (e.g., adding ads), we will notify users through the app or via email (if provided). Your continued use of the app after such changes constitutes your acceptance of the updated policy.</p>
+        <p>We may update this policy to reflect changes in our practices or laws. Updates will be posted here with a new “Last Updated” date. For significant changes (e.g., new data types), we will notify users via the app or email. Continued use after updates signifies acceptance.</p>
 
         <h2>8. Compliance with Laws</h2>
-        <p>We are committed to complying with applicable privacy laws, including:</p>
+        <p>We comply with applicable privacy laws, including:</p>
         <ul>
-            <li><strong>General Data Protection Regulation (GDPR)</strong>: If you are in the European Economic Area (EEA), you have rights to access, rectify, erase, restrict, or object to the processing of your personal data. The UMP SDK will facilitate consent for ad-related data collection.</li>
-            <li><strong>California Consumer Privacy Act (CCPA)</strong>: If you are a California resident, you have the right to know, delete, and opt out of the sale of your personal information. We will provide an opt-out mechanism when ads are implemented.</li>
-            <li><strong>Google Play Policies</strong>: We adhere to Google Play’s Developer Program Policies regarding data collection and user consent.</li>
+            <li><strong>GDPR</strong>: EEA residents have rights to access, rectify, erase, restrict, or object to data processing. The UMP SDK ensures ad-related consent.</li>
+            <li><strong>CCPA</strong>: California residents can request to know, delete, or opt out of personal data sales. An opt-out mechanism is provided via UMP SDK.</li>
+            <li><strong>Google Play Policies</strong>: We adhere to data collection and consent requirements.</li>
         </ul>
-        <p>If we implement ads, we will ensure compliance with ad-specific regulations (e.g., GDPR consent requirements, CCPA opt-out rights). If you have questions about your rights under these laws, please contact us at <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a>.</p>
+        <p>For questions about your rights, contact us at <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a>.</p>
 
         <h2>9. Contact Us</h2>
-        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
+        <p>For questions or concerns, reach us at:</p>
         <ul>
             <li><strong>Email</strong>: <a href="mailto:sddubey419@gmail.com">sddubey419@gmail.com</a></li>
-            <li><strong>App Developer</strong>: AktuBaar Team</li>
+            <li><strong>Developer</strong>: AktuBaar Team</li>
         </ul>
     </div>
 </body>
